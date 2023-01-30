@@ -1,7 +1,12 @@
-# Machine's database Converter 
+# IVR
 
-Hello Everyone,
-I have made this program to convert the automatic calling machine's database (which is a .mdb file) to json format on based on a SQL condition whether the feedback was answered or not.
 
-It will store all the names and numbers of people who have answered our Automated Call.
-Also I have created a GUI Interface to give the user a good experience and created an executale file using pyinstaller.
+Extracted database from an IVR device 
+Manipulated the database using SQL queries 
+Uploaded the database on a server usng python requests module
+Used scheduler module to schedule it for every hour
+Created an executable file so that it can run by clicking it once
+Automated the whole process by creating a batch file
+Also added the modules.txt file in the batch file so that it can install everything needed with just one click
+And add the command for opening and scheduling a task in Win Task Scheduler
+
